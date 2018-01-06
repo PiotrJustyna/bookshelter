@@ -1,0 +1,7 @@
+---
+applications:
+- name: app
+  memory: 64M
+  disk_quota: 128M
+  instances: 1
+  command: node app.js
